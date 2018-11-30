@@ -8,8 +8,8 @@ sql_transaction = []
 start_row = 0
 cleanup = 1000000
 
-republican_subreddits = ["Republican", "Conservative", "The_Donald", "imgoingtohellforthis", "conspiracy", "incels", "nazi", "nationalsocialism", "far_right"]
-democratic_subreddits = ["democrats", "liberal", "twoxchromosomes", "enoughtrumpspam", "esist", "fuckthealtright", "latestagecapitalism"]
+republican_subreddits = ["Republican", "Conservative", "The_Donald", "far_right"]
+democratic_subreddits = ["democrats", "liberal", "enoughtrumpspam", "latestagecapitalism"]
 
 connection = sqlite3.connect('RepublicanTrainingData.db')
 c = connection.cursor()
